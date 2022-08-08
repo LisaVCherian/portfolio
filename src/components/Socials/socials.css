@@ -1,0 +1,21 @@
+/* ------ Socials ------ */
+.socials {
+    margin-left: 0.5rem;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: right; */
+    flex-direction: column;
+}
+
+.icon-social {
+    font-size: 22px;
+    /* margin: 0 0.5rem; */
+    transition: transform 0.2s;
+    color: white;
+    /* color: #ea0f1e; */
+}
+
+.icon-social:hover {
+    transform: scale(1.3);
+}

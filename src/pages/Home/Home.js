@@ -1,6 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Home.css'
+import Socials from '../../components/Socials/Socials';
+
+// import { socialsData } from '../../data/socialsData';
+
+// import {
+//     FaLinkedin,
+//     FaGithub,
+//     FaInstagram,
+//     FaYoutube,
+// } from 'react-icons/fa';
 
 const Home = () => {
     return (
@@ -31,9 +41,10 @@ const Home = () => {
                     </div>
                 </h1>
 
+                <Socials />
             </div>
-            <div class="bg-photo"></div>
 
+            <div class="bg-photo"></div>
         </div>
     )
 }
