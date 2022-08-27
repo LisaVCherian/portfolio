@@ -1,0 +1,71 @@
+.logo {
+    float: right;
+}
+
+.logo-inner {
+    position: fixed;
+    top: 1%;
+    z-index: 999;
+    right: 10%;
+}
+
+@media screen and (max-width: 767px) {
+    .logo-inner {
+        top: 1%;
+        left: 75%;
+    }
+}
+
+.label-logo:after {
+    font-weight: 500;
+    font-size: 20px;
+    content: "lisa.";
+}
+
+.label-logo:hover:after {
+    content: "lisa.works";
+    white-space: nowrap;
+}
+
+.on-hover--40:hover {
+    margin-left: -40px;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+@media screen and (max-width: 767px) {
+    .label-logo:hover:after {
+        content: "lisa.";
+    }
+}
+
+.label-logo {
+    -webkit-animation: fadelogo .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -moz-animation: fadelogo .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation: fadelogo .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -webkit-animation-fill-mode: backwards;
+    -moz-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}
+
+
+@-webkit-keyframes fadelogo {
+    0% {
+        -webkit-transform: translateY(10vh);
+    }
+
+    100% {
+        -webkit-transform: translateY(0vh);
+    }
+}
+
+@keyframes fadelogo {
+    0% {
+        opacity: 0;
+        transform: translateY(10vh);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+}

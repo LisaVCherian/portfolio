@@ -1,0 +1,45 @@
+.proHeading {
+    margin-left: 3.5em;
+    margin-top: 2em;
+}
+
+.projectPage-container {
+    margin: 0em 3.5em;
+
+}
+
+.search {
+    color: red;
+    width: 40%;
+    height: 1.5em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: rgba(232, 229, 229, 0.932);
+    box-shadow: inset 3px 3px 6px #ffffff38, inset -1.5px -3px 6px #110f0f84;
+}
+
+.search::placeholder {
+    color: rgb(66, 65, 65);
+    padding-left: 5px;
+}
+
+/* color: 'red',
+            width: '40%',
+            height: '2.75rem',
+            outline: 'none',
+            border: 'none',
+            borderRadius: '20px',
+            padding: '0.95rem 1rem',
+            fontFamily: "'Noto Sans TC', sans-serif",
+            fontWeight: 500,
+            fontSize: '0.9rem',
+            backgroundColor: 'black',
+            // boxShadow: theme.type === 'dark' ? 'inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060' : 'inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030',
+            // "&::placeholder": {
+            //     color: 'gray',
+            // },
+            [t.breakpoints.down('sm')]: {
+                width: '350px',
+            }, */
